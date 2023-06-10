@@ -1,0 +1,63 @@
+{
+  
+  "users": [
+    {
+      "imgs1": "../src/assets/unsplash_0FHNXqyqgg4 (2).png",
+      "content1": "Shirt with puffed sleeves"
+    },
+    {
+      "imgs2": "../src/assets/unsplash_0FHNXqyqgg4 (3).png",
+      "content2": "linen jumpsuit"
+    },
+    {
+      "imgs3": "../src/assets/unsplash_0FHNXqyqgg4.svg",
+      "content3": "White formal suit"
+    },
+    {
+      "imgs4": "../src/assets/unsplash_0FHNXqyqgg4.png",
+      "content4": "Pattern dresses"
+    },
+    {
+      "imgs5": "../src/assets/unsplash_0FHNXqyqgg4 (1).png",
+      "content5": "Leather shirt dress"
+    },
+    {
+      "imgs6": "../src/assets/Rectangle 10.png",
+      "content6": "Round neck cotton Tea",
+      "rs1": "Rs.549",
+      "stars1": "../src/assets/Star 1 (1).png"
+    },
+    {
+      "imgs7": "../src/assets/Rectangle 10 (1).png",
+      "content7": "High waist trousers",
+      "rs2": "Rs.749"
+    },
+    {
+      "imgs8": "../src/assets/Rectangle 10 (2).png",
+      "content8": "High neck pullover",
+      "rs3": "Rs.849"
+    },
+    {
+      "imgs9": "../src/assets/Rectangle 10 (3).png",
+      "content9": "satin jumpsuit",
+      "rs4": "Rs.650"
+    },
+    {
+      "imgs10": "../src/assets/Rectangle 10 (4).png",
+      "content10": "Leather shirt dress",
+      "rs4": "549"
+    },
+    {
+      "imgs11": "../src/assets/Rectangle 10 (5).png",
+      "content11": "Leather shirt dress"
+    },
+    {
+      "imgs12": "../src/assets/Rectangle 10 (6).png",
+      "content12": "Leather shirt dress"
+    },
+    {
+      "imgs13": "../src/assets/Rectangle 10 (7).png",
+      "content13": "Leather shirt dress"
+    }
+  ]
+}

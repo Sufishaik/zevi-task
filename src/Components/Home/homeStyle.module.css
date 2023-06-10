@@ -1,0 +1,334 @@
+.inputBox {
+    position: absolute;
+    width: 915px;
+    height: 83px;
+    left: 299px;
+    top: 162px;
+    font-size: 32px;
+    padding-left: 2rem;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.inputBox::placeholder {
+    position: absolute;
+    width: 106px;
+    height: 39px;
+    left: 40px;
+    top: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.4);
+
+
+}
+
+.zevi {
+    position: absolute;
+    width: 86px;
+    height: 44.69px;
+    left: 1386px;
+    top: 40px;
+
+    /* background: url(ZEVI-GG-LogoDesogn -Option-2-Black 2 (2).png); */
+}
+
+.searchImg {
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 1161px;
+    top: 185px;
+}
+
+.container {
+    position: absolute;
+    width: 1512px;
+    height: 982px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(215, 224, 255, 0.26);
+}
+
+.box {
+    position: absolute;
+    width: 1025px;
+    height: 667px;
+    left: 244px;
+    top: 262px;
+   display: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.head {
+    position: absolute;
+    width: 145px;
+    height: 27px;
+    left: 40px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.9718px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.boxImage1 {
+    position: absolute;
+    width: 165px;
+    height: 223px;
+    left: 40px;
+    top: 91px;
+
+    /* background: url(.jpg); */
+    border-radius: 4px;
+}
+
+.boxImage2 {
+    position: absolute;
+    width: 165px;
+    height: 223px;
+    left: 235px;
+    top: 91px;
+
+    /* background: url(.jpg); */
+    border-radius: 4px;
+}
+
+.boxImage3 {
+    position: absolute;
+    width: 165px;
+    height: 223px;
+    left: 430px;
+    top: 91px;
+
+    /* background: url(.jpg); */
+    border-radius: 4px;
+}
+
+.boxImage4 {
+    position: absolute;
+    width: 165px;
+    height: 223px;
+    left: 625px;
+    top: 91px;
+
+    /* background: url(.jpg); */
+    border-radius: 4px;
+}
+
+.boxContent4 {
+    position: absolute;
+    width: 164.79px;
+    height: 17px;
+    left: 625px;
+    top: 328px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.boxImage5 {
+    position: absolute;
+    width: 165px;
+    height: 223px;
+    left: 820px;
+    top: 91px;
+
+    /* background: url(.jpg); */
+    border-radius: 4px;
+}
+
+.boxContent5 {
+    position: absolute;
+    width: 164.79px;
+    height: 17px;
+    left: 820px;
+    top: 328px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.boxContent3 {
+    position: absolute;
+    width: 164.79px;
+    height: 17px;
+    left: 430px;
+    top: 328px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.boxContent2 {
+    position: absolute;
+    width: 164.79px;
+    height: 17px;
+    left: 235px;
+    top: 328px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.boxContent1 {
+    position: absolute;
+    width: 164.79px;
+    height: 17px;
+    left: 40px;
+    top: 328px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.h1 {
+    position: absolute;
+    width: 215px;
+    height: 27px;
+    left: 40px;
+    top: 385px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.9718px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.h41 {
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    left: 40px;
+    top: 436px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+.h42 {
+    position: absolute;
+    width: 85px;
+    height: 19px;
+    left: 40px;
+    top: 467px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+.h43 {
+    position: absolute;
+    width: 117px;
+    height: 19px;
+    left: 40px;
+    top: 498px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+.h44 {
+    position: absolute;
+    width: 112px;
+    height: 19px;
+    left: 40px;
+    top: 529px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+.h45 {
+    position: absolute;
+    width: 90px;
+    height: 19px;
+    left: 40px;
+    top: 560px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
