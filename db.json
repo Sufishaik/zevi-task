@@ -1,63 +1,54 @@
 {
   
   "users": [
+   
     {
-      "imgs1": "../src/assets/unsplash_0FHNXqyqgg4 (2).png",
-      "content1": "Shirt with puffed sleeves"
+      "imgs": "../src/assets/Rectangle 10.png",
+      "title": "Round neck cotton Tea",
+      "rs" : "Rs.599",
+      "rs1" : "Rs.549",
+      "num" : "(210)"
     },
     {
-      "imgs2": "../src/assets/unsplash_0FHNXqyqgg4 (3).png",
-      "content2": "linen jumpsuit"
+      "imgs": "../src/assets/Rectangle 10 (1).png",
+      "title": "High waist trousers",
+      "rs" : "Rs.999",
+      "rs1" : "Rs.749",
+      "num" : "(210)"
     },
     {
-      "imgs3": "../src/assets/unsplash_0FHNXqyqgg4.svg",
-      "content3": "White formal suit"
+      "imgs": "../src/assets/Rectangle 10 (2).png",
+      "title": "High neck pullover",
+      "rs" : "Rs.899",
+      "rs1" : "Rs.849",
+      "num" : "(210)"
     },
     {
-      "imgs4": "../src/assets/unsplash_0FHNXqyqgg4.png",
-      "content4": "Pattern dresses"
+      "imgs": "../src/assets/Rectangle 10 (3).png",
+      "title": "satin jumpsuit",
+      "rs" : "Rs.650",
+      "rs1" : "Rs.549",
+      "num" : "(210)"
     },
     {
-      "imgs5": "../src/assets/unsplash_0FHNXqyqgg4 (1).png",
-      "content5": "Leather shirt dress"
+      "imgs": "../src/assets/Rectangle 10 (4).png",
+      "title": "Leather shirt dress",
+      "num" : "(210)"
     },
     {
-      "imgs6": "../src/assets/Rectangle 10.png",
-      "content6": "Round neck cotton Tea",
-      "rs1": "Rs.549",
-      "stars1": "../src/assets/Star 1 (1).png"
+      "imgs": "../src/assets/Rectangle 10 (5).png",
+      "title": "Leather shirt dress",
+      "num" : "(210)"
     },
     {
-      "imgs7": "../src/assets/Rectangle 10 (1).png",
-      "content7": "High waist trousers",
-      "rs2": "Rs.749"
+      "imgs": "../src/assets/Rectangle 10 (6).png",
+      "title": "Leather shirt dress",
+      "num" : "(210)"
     },
     {
-      "imgs8": "../src/assets/Rectangle 10 (2).png",
-      "content8": "High neck pullover",
-      "rs3": "Rs.849"
-    },
-    {
-      "imgs9": "../src/assets/Rectangle 10 (3).png",
-      "content9": "satin jumpsuit",
-      "rs4": "Rs.650"
-    },
-    {
-      "imgs10": "../src/assets/Rectangle 10 (4).png",
-      "content10": "Leather shirt dress",
-      "rs4": "549"
-    },
-    {
-      "imgs11": "../src/assets/Rectangle 10 (5).png",
-      "content11": "Leather shirt dress"
-    },
-    {
-      "imgs12": "../src/assets/Rectangle 10 (6).png",
-      "content12": "Leather shirt dress"
-    },
-    {
-      "imgs13": "../src/assets/Rectangle 10 (7).png",
-      "content13": "Leather shirt dress"
+      "imgs": "../src/assets/Rectangle 10 (7).png",
+      "title": "Leather shirt dress",
+      "num" : "(210)"
     }
   ]
 }
