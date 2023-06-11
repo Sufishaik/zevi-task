@@ -910,6 +910,10 @@ body {
 
 .love {
     position: relative;
+    /* position: absolute; */
     left: 9rem;
-    bottom: 11rem;
+    /* bottom: 11rem; */
+    top: -9rem;
+    /* margin-left: 9rem; */
+  
 }

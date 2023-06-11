@@ -148,7 +148,7 @@ function SearchSession() {
         <input type="checkbox" className='checkrate3' value={rate.rate3} onChange={handleRate} name="" id="" />
         <div className='star'>
           <img src={star1} alt="" className='star11' />
-          <img src={star1} alt="" className='star11' />
+          <img src={star1} alt="" className='star12' />
           <img src={star1} alt="" className='star13' />
           <img src={star2} alt="" className='star14' />
           <img src={star2} alt="" className='star15' />
