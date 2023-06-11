@@ -18,12 +18,15 @@ function SearchSession() {
     rate2: 2,
     rate1: 1,
   })
-  const [toggle, settoggle] = useState(love);
+  const [brand, setbrand] = useState({
+    mango : 'mango',
+    HandM : 'hm'
+  })
   const [data, setdata] = useState([])
   const [text, settext] = useState('');
 
 
-  const [btntoggle, setbtntoggle] = useState(false);
+
 
   const fetch = async (api) => {
     const makecall = await axios.get(api);
@@ -85,6 +88,17 @@ function SearchSession() {
       setdata(rates1)
     }
   }
+  const handleBrand = (e) => {
+    e.preventDefault();
+    if (e.target.checked) {
+      const mango = data.filter((item) => item.mango == e.target.value);
+      setdata(mango)
+    }
+    if (e.target.checked) {
+      const HandM = data.filter((item) => item.hm == e.target.value);
+      setdata(HandM)
+    }
+  }
 
  
   return (
@@ -102,9 +116,9 @@ function SearchSession() {
         <h3 className='brand1'>BRAND</h3>
         <img src={arror1} className='arrow' alt="" />
 
-        <input type="checkbox" className='check1' name="" id="" value="mango" />
+        <input type="checkbox" className='check1' name="" id="" value={brand.mango} onChange={ handleBrand} />
         <span className='span1'>Mango</span>
-        <input type="checkbox" name="" className='check2' id="" value="h&m" />
+        <input type="checkbox" name="" className='check2' id="" value={brand.HandM} onChange={handleBrand} />
         <span className='span2'>H&M</span>
         <div className='line1'></div>
         <h3 className='pricehead'>PRICE RANGE</h3>

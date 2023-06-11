@@ -9,7 +9,8 @@
       "id": "1",
       "rs": "599",
       "rs1": "549",
-      "num": "(210)"
+      "num": "(210)",
+      "mango" : "mango"
     },
     
     {
@@ -21,7 +22,8 @@
       "id": "2",
       "rs": "999",
       "rs1": "749",
-      "num": "(210)"
+      "num": "(210)",
+      "mango" : "mango"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (2).png",
@@ -32,7 +34,8 @@
       "love": "../src/assets/Vector (13).png",
       "love2": "../src/assets/Vector (14).png",
       "rs1": "849",
-      "num": "(210)"
+      "num": "(210)",
+      "mango" : "mango"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (3).png",
@@ -43,7 +46,8 @@
       "love": "../src/assets/Vector (13).png",
       "love2": "../src/assets/Vector (14).png",
       "star": "2",
-      "num": "(210)"
+      "num": "(210)",
+      "hm" : "hm"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (4).png",
@@ -54,7 +58,8 @@
       "rs": "249",
       "rs1": "358",
       "star": "1",
-      "num": "(210)"
+      "num": "(210)",
+      "hm" : "hm"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (5).png",
@@ -65,7 +70,8 @@
       "rs": "409",
       "rs1": "449",
       "star": "3",
-      "num": "(210)"
+      "num": "(210)",
+      "hm" : "hm"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (6).png",
@@ -76,7 +82,8 @@
       "rs": "499",
       "rs1": "512",
       "star": "2",
-      "num": "(210)"
+      "num": "(210)",
+      "hm" : "hm"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (7).png",
@@ -87,7 +94,8 @@
       "love2": "../src/assets/Vector (14).png",
       "rs": "600",
       "rs1": "650",
-      "num": "(210)"
+      "num": "(210)",
+      "hm" : "hm"
     }
   ],
   "posts": [
