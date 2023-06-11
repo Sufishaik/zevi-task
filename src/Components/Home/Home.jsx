@@ -10,7 +10,7 @@ import axios from 'axios';
 function Home() {
   // const data = images;
   const navigate = useNavigate()
-  const [data,setdata] = useState([])
+  const [data, setdata] = useState([])
 
   // const [show, setshow] = useState(false);
   const [text, settext] = useState('')
@@ -21,25 +21,43 @@ function Home() {
 
   }
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   navigate("/search")
+  // }
+  const handleSearch = async (e) => {
     e.preventDefault();
-    navigate("/search")
+    navigate("/search", {
+      state : {
+        setdata : setdata(data),
+      }
+    })
+    return await axios.get(`http://localhost:3000/users?q=${text.toLowerCase()}`)
+    .then((resp) => {
+        setdata(resp.data);
+        settext('');
+      })
+      .catch((err) => console.log("Error", err))
   }
+  useEffect(() => {
+    fetch('http://localhost:3000/users');
+  }, [])
+
   const fetch = async (api) => {
     const makecall = await axios.get(api);
     console.log(makecall.data);
     setdata(makecall.data)
   }
-  useEffect(() =>{
-    fetch('http://localhost:3000/users')
+  useEffect(() => {
+    fetch('http://localhost:3000/posts')
   })
   return (
-    <div>
+    <div className='home'>
       <div className='container'>
         <img src={Zevi} alt="" className='zevi' />
         <div>
           <div onClick={handleShow}>
-            <form action="" onSubmit={handleSubmit}>
+            <form action="" onSubmit={handleSearch}>
               <input type="text" name="" id="" className='inputBox' placeholder='Search' value={text} onChange={(e) => settext(e.target.value)} />
             </form>
           </div>
@@ -54,16 +72,15 @@ function Home() {
               data.map((item) => {
                 return (
                   <>
-                    <img src={item.imgs1} alt="" className='boxImage1' />
-                    <h5 className='boxContent1'>{item.content1}</h5>
-                    <img src={item.imgs2} alt="" className='boxImage2' />
-                    <h5 className='boxContent2'>{item.content2}</h5>
-                    <img src={item.imgs3} alt="" className='boxImage3' />
-                    <h5 className='boxContent3'>{item.content3}</h5>
-                    <img src={item.imgs4} alt="" className='boxImage4' />
-                    <h5 className='boxContent4'>{item.content4}</h5>
-                    <img src={item.imgs5} alt="" className='boxImage5' />
-                    <h5 className='boxContent5'>{item.content5}</h5>
+                    <div className='boxImage1'>
+                      <img src={item.img1} alt="" className='' />
+                      <h5 className='title2'>{item.title2}</h5>
+
+                    </div>
+                    <div>
+
+                    </div>
+
                   </>
                 )
               })

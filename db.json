@@ -1,54 +1,115 @@
 {
-  
   "users": [
-   
     {
       "imgs": "../src/assets/Rectangle 10.png",
       "title": "Round neck cotton Tea",
-      "rs" : "Rs.599",
-      "rs1" : "Rs.549",
-      "num" : "(210)"
+      "love": "../src/assets/Vector (13).png",
+      "love2": "../src/assets/Vector (14).png",
+      "star": "5",
+      "id": "1",
+      "rs": "599",
+      "rs1": "549",
+      "num": "(210)"
     },
+    
     {
       "imgs": "../src/assets/Rectangle 10 (1).png",
       "title": "High waist trousers",
-      "rs" : "Rs.999",
-      "rs1" : "Rs.749",
-      "num" : "(210)"
+      "love": "../src/assets/Vector (13).png",
+      "love2": "../src/assets/Vector (14).png",
+      "star": "4",
+      "id": "2",
+      "rs": "999",
+      "rs1": "749",
+      "num": "(210)"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (2).png",
       "title": "High neck pullover",
-      "rs" : "Rs.899",
-      "rs1" : "Rs.849",
-      "num" : "(210)"
+      "rs": "899",
+      "star": "3",
+      "id": "3",
+      "love": "../src/assets/Vector (13).png",
+      "love2": "../src/assets/Vector (14).png",
+      "rs1": "849",
+      "num": "(210)"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (3).png",
       "title": "satin jumpsuit",
-      "rs" : "Rs.650",
-      "rs1" : "Rs.549",
-      "num" : "(210)"
+      "rs": "650",
+      "rs1": "549",
+      "id": "4",
+      "love": "../src/assets/Vector (13).png",
+      "love2": "../src/assets/Vector (14).png",
+      "star": "2",
+      "num": "(210)"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (4).png",
-      "title": "Leather shirt dress",
-      "num" : "(210)"
+      "love": "../src/assets/Vector (13).png",
+      "love2": "../src/assets/Vector (14).png",
+      "title": "Shirt with puffed sleeves",
+      "id": "5",
+      "rs": "249",
+      "rs1": "358",
+      "star": "1",
+      "num": "(210)"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (5).png",
-      "title": "Leather shirt dress",
-      "num" : "(210)"
+      "id": "6",
+      "love": "../src/assets/Vector (13).png",
+      "love2": "../src/assets/Vector (14).png",
+      "title": "Lilen jumpsuit",
+      "rs": "409",
+      "rs1": "449",
+      "star": "3",
+      "num": "(210)"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (6).png",
-      "title": "Leather shirt dress",
-      "num" : "(210)"
+      "id": "7",
+      "title": "Silver Jump Suit",
+      "love": "../src/assets/Vector (13).png",
+      "love2": "../src/assets/Vector (14).png",
+      "rs": "499",
+      "rs1": "512",
+      "star": "2",
+      "num": "(210)"
     },
     {
       "imgs": "../src/assets/Rectangle 10 (7).png",
-      "title": "Leather shirt dress",
-      "num" : "(210)"
+      "id": "8",
+      "title": "White jump suit",
+      "star": "2",
+      "love": "../src/assets/Vector (13).png",
+      "love2": "../src/assets/Vector (14).png",
+      "rs": "600",
+      "rs1": "650",
+      "num": "(210)"
+    }
+  ],
+  "posts": [
+    {
+      "img1": "../src/assets/unsplash_0FHNXqyqgg4 (1).svg",
+      "title2": "Shirt with puffed sleeves"
+    },
+    {
+      "img1": "../src/assets/unsplash_0FHNXqyqgg4 (3).png",
+      "title2": "Linen jumpsuit"
+    },
+    {
+      "img1": "../src/assets/unsplash_0FHNXqyqgg4.svg",
+      "title2": "White formal suit"
+    },
+    {
+      "img1": "../src/assets/unsplash_0FHNXqyqgg4.png",
+      "title2": "Pattern dressed"
+    },
+    {
+      "img1": "../src/assets/unsplash_0FHNXqyqgg4 (1).png",
+      "title2": "Leather shirt dress"
     }
   ]
 }

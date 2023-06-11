@@ -6,18 +6,22 @@
     top: 162px;
     font-size: 32px;
     padding-left: 2rem;
+    outline: none;
     border: none;
     background: #FFFFFF;
     border-radius: 20px;
 }
-
+body {
+   
+}
 .inputBox::placeholder {
     position: absolute;
     width: 106px;
     height: 39px;
     left: 40px;
     top: 22px;
-
+    border: none;
+    outline: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -57,7 +61,7 @@
     left: 0px;
     top: 0px;
 
-    background: rgba(215, 224, 255, 0.26);
+    background: url("C:\Users\sufiyan shaikh\Desktop\ZeviTask\Task\vite-project\src\assets\Home (1).svg");
 }
 
 .box {
@@ -90,153 +94,25 @@
     color: #000000;
 
 }
+.images {
+        max-width: 1100px;
+        width: 120%;
+        margin: auto;
+}
 
 .boxImage1 {
-    position: absolute;
-    width: 165px;
     height: 223px;
-    left: 40px;
-    top: 91px;
-
-    /* background: url(.jpg); */
+    float: left;
+    width: 15%;
+    margin-top: 6rem;
+    margin-left: 2rem;  
     border-radius: 4px;
 }
 
-.boxImage2 {
-    position: absolute;
-    width: 165px;
-    height: 223px;
-    left: 235px;
-    top: 91px;
-
-    /* background: url(.jpg); */
-    border-radius: 4px;
-}
-
-.boxImage3 {
-    position: absolute;
-    width: 165px;
-    height: 223px;
-    left: 430px;
-    top: 91px;
-
-    /* background: url(.jpg); */
-    border-radius: 4px;
-}
-
-.boxImage4 {
-    position: absolute;
-    width: 165px;
-    height: 223px;
-    left: 625px;
-    top: 91px;
-
-    /* background: url(.jpg); */
-    border-radius: 4px;
-}
-
-.boxContent4 {
-    position: absolute;
-    width: 164.79px;
-    height: 17px;
-    left: 625px;
-    top: 328px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
 
 
-    color: #000000;
-
-}
-
-.boxImage5 {
-    position: absolute;
-    width: 165px;
-    height: 223px;
-    left: 820px;
-    top: 91px;
-
-    /* background: url(.jpg); */
-    border-radius: 4px;
-}
-
-.boxContent5 {
-    position: absolute;
-    width: 164.79px;
-    height: 17px;
-    left: 820px;
-    top: 328px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
 
 
-    color: #000000;
-
-}
-
-.boxContent3 {
-    position: absolute;
-    width: 164.79px;
-    height: 17px;
-    left: 430px;
-    top: 328px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-
-    color: #000000;
-}
-
-.boxContent2 {
-    position: absolute;
-    width: 164.79px;
-    height: 17px;
-    left: 235px;
-    top: 328px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-
-    color: #000000;
-}
-
-.boxContent1 {
-    position: absolute;
-    width: 164.79px;
-    height: 17px;
-    left: 40px;
-    top: 328px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-
-    color: #000000;
-}
 
 .h1 {
     position: absolute;
