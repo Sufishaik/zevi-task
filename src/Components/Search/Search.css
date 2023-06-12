@@ -722,7 +722,7 @@ body {
     position: absolute;
     width: 20px;
     height: 20px;
-
+    display: inline;
     left: 380px;
     top: 510px;
 }
@@ -908,7 +908,7 @@ body {
 
 
 
-.love {
+.wishlist {
     position: relative;
     /* position: absolute; */
     left: 9rem;

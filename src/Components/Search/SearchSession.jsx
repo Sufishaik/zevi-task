@@ -6,10 +6,13 @@ import arror1 from "../../assets/Vector (12).png";
 import arror2 from "../../assets/Vector (12).png";
 import star1 from "../../assets/Star 1.png";
 import star2 from "../../assets/Star 5.png";
+
+import wishlist2 from "../../assets/Vector (14).png"
 import love from "../../assets/Vector (13).png"
-import love2 from "../../assets/Vector (14).png"
 import axios from 'axios';
 import Star from '../Stars/Star';
+import { AiOutlineStar } from "react-icons/ai";
+import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 function SearchSession() {
   const [rate, setrate] = useState({
     rate5: 5,
@@ -19,14 +22,12 @@ function SearchSession() {
     rate1: 1,
   })
   const [brand, setbrand] = useState({
-    mango : 'mango',
-    HandM : 'hm'
+    mango: 'mango',
+    HandM: 'hm'
   })
   const [data, setdata] = useState([])
   const [text, settext] = useState('');
-
-
-
+  const [toggle, settoggle] = useState(love)
 
   const fetch = async (api) => {
     const makecall = await axios.get(api);
@@ -54,14 +55,14 @@ function SearchSession() {
 
   const filterHandle = async (e) => {
     if (e.target.checked) {
-      const res = data.filter((item) => parseInt(item.rs) < 600)
+      const res = data.filter((item) => parseInt(item.rs) < 700)
       setdata(res);
       setcheckvalue(" ")
     }
   }
   const filterHandle2 = (e) => {
     if (e.target.checked) {
-      data.filter((item) => parseInt(item.rs) < 600)
+      data.filter((item) => parseInt(item.rs) > 900)
       alert("no data available");
       setcheckvalue2("")
     }
@@ -100,7 +101,7 @@ function SearchSession() {
     }
   }
 
- 
+
   return (
     <div>
       <div>
@@ -116,7 +117,7 @@ function SearchSession() {
         <h3 className='brand1'>BRAND</h3>
         <img src={arror1} className='arrow' alt="" />
 
-        <input type="checkbox" className='check1' name="" id="" value={brand.mango} onChange={ handleBrand} />
+        <input type="checkbox" className='check1' name="" id="" value={brand.mango} onChange={handleBrand} />
         <span className='span1'>Mango</span>
         <input type="checkbox" name="" className='check2' id="" value={brand.HandM} onChange={handleBrand} />
         <span className='span2'>H&M</span>
@@ -136,6 +137,7 @@ function SearchSession() {
           <img src={star1} alt="" className='star3' />
           <img src={star1} alt="" className='star4' />
           <img src={star1} alt="" className='star5' />
+
         </div>
         <input type="checkbox" className='checkrate2' value={rate.rate4} onChange={handleRate} name="" id="" />
         <div className='star'>
@@ -172,31 +174,33 @@ function SearchSession() {
       </div>
 
       <div className='rightSession'>
-     
+
         {
-          data.map((item) => {
+          data.map((item, id) => {
             return (
               <>
                 <div className='img' >
-                  <div className='img-container'>
+                  <div className='img-container' key={id}>
                     <div className='img-b' >
-                      <img src={item.imgs}  className='img1' alt="" />
+                      <img src={item.imgs} className='img1' alt="" />
                     </div>
-                    <img onClick={() => {
+                    <img onClick={(e) => {
                       if (data.filter((pro) => parseInt(pro.id) == item.id)) {
-                        return item.love = item.love2;
+                        let target = e.target.src;
+                        target = e.target.src = item.love2;
+                        return target;
                       }
-                    }} src={item.love} alt="" id={item.id} className="love1 love" />
-                      <button className='btn' id='btns'>View Product</button>
-                 
+                    }} src={item.wishlist} alt="" id={item.id} className="wishlist" />
+                    <button className='btn'>View Product</button>
+
                     <h5 className='title'>{item.title}</h5>
                     <span className='rup1'> Rs.{item.rs}</span>
                     <span className='rup2'>Rs.{item.rs1}</span>
                     <span className='num'>{item.num}</span>
-                    <Star star={item.star} className="stars"/>
-                   
+                    <Star star={item.star} className="stars" />
+
                   </div>
-                 
+
                 </div>
               </>
             )
