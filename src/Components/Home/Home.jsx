@@ -5,7 +5,7 @@ import "../Home/homeStyle.css";
 // import { images } from '../../Data';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
+import HomeImage from "../../assets/Home (1).svg"
 
 function Home() {
   // const data = images;
@@ -54,6 +54,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='container'>
+      <img src={HomeImage} alt="" />
         <img src={Zevi} alt="" className='zevi' />
         <div>
           <div onClick={handleShow}>
