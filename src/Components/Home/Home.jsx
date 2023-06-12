@@ -28,12 +28,12 @@ function Home() {
   const handleSearch = async (e) => {
     e.preventDefault();
     navigate("/search", {
-      state : {
-        setdata : setdata(data),
+      state: {
+        setdata: setdata(data),
       }
     })
     return await axios.get(`http://localhost:3000/users?q=${text.toLowerCase()}`)
-    .then((resp) => {
+      .then((resp) => {
         setdata(resp.data);
         settext('');
       })
@@ -54,7 +54,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='container'>
-      <img src={HomeImage} alt="" />
+        <img src={HomeImage} alt="" />
         <img src={Zevi} alt="" className='zevi' />
         <div>
           <div onClick={handleShow}>

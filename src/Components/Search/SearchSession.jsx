@@ -7,12 +7,11 @@ import arror2 from "../../assets/Vector (12).png";
 import star1 from "../../assets/Star 1.png";
 import star2 from "../../assets/Star 5.png";
 
-import wishlist2 from "../../assets/Vector (14).png"
-import love from "../../assets/Vector (13).png"
+// import wishlist2 from "../../assets/Vector (14).png"
+// import love from "../../assets/Vector (13).png"
 import axios from 'axios';
 import Star from '../Stars/Star';
-import { AiOutlineStar } from "react-icons/ai";
-import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+
 function SearchSession() {
   const [rate, setrate] = useState({
     rate5: 5,
@@ -27,7 +26,7 @@ function SearchSession() {
   })
   const [data, setdata] = useState([])
   const [text, settext] = useState('');
-  const [toggle, settoggle] = useState(love)
+  // const [toggle, settoggle] = useState(love)
 
   const fetch = async (api) => {
     const makecall = await axios.get(api);
