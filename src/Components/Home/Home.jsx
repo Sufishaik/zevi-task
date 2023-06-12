@@ -25,23 +25,16 @@ function Home() {
   //   e.preventDefault();
   //   navigate("/search")
   // }
-  const handleSearch = async (e) => {
+  const handleSearch = (e) => {
     e.preventDefault();
     navigate("/search", {
-      state: {
-        setdata: setdata(data),
+      state : {
+        setdata : setdata(data),
       }
     })
-    return await axios.get(`http://localhost:3000/users?q=${text.toLowerCase()}`)
-      .then((resp) => {
-        setdata(resp.data);
-        settext('');
-      })
-      .catch((err) => console.log("Error", err))
+ 
   }
-  useEffect(() => {
-    fetch('http://localhost:3000/users');
-  }, [])
+ 
 
   const fetch = async (api) => {
     const makecall = await axios.get(api);
@@ -49,12 +42,12 @@ function Home() {
     setdata(makecall.data)
   }
   useEffect(() => {
-    fetch('http://localhost:3000/posts')
+    fetch('https://api-com2.onrender.com/posts')
   })
   return (
-    <div className='home'>
+    <div className='home' >
       <div className='container'>
-        <img src={HomeImage} alt="" />
+      <img src={HomeImage} alt="" />
         <img src={Zevi} alt="" className='zevi' />
         <div>
           <div onClick={handleShow}>

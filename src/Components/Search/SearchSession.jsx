@@ -49,7 +49,7 @@ function SearchSession() {
       .catch((err) => console.log("Error", err))
   }
   useEffect(() => {
-    fetch('http://localhost:3000/users');
+    fetch('https://api-com.onrender.com/users2');
   }, [])
 
   const filterHandle = async (e) => {
